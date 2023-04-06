@@ -1,0 +1,128 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 12vh 5%;
+    box-sizing: border-box;
+    background-size: cover;
+   /* background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100%;
+    overflow-x: scroll;
+    */
+}
+.center {
+    margin: auto;
+    width: 800px;
+    height: 600px;
+}
+.block {
+    box-shadow: none;
+    background: #fff;
+    border: 1px solid #d0d0bf;
+    border-radius: 4px;
+    margin-left:5px;
+    margin-right:5px;
+    margin-bottom:5px 
+}
+.block #content {
+    padding-left:10px;
+    padding-right:10px;
+    padding-bottom:10px 
+}
+hr.gradient {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 3px;
+    border: none;
+    border-radius: 6px;
+    background: linear-gradient( 90deg, rgba(13, 8, 96, 1) 0%, rgba(9, 9, 121, 1) 21%, rgba(6, 84, 170, 1) 51%, rgba(0, 255, 113, 1) 100% );
+}
+li i {
+    padding-bottom: 5px;
+    padding-right: 10px 
+}
+ul.tree-view a {
+    color: blue;
+}
+.no_indent_ul ul {
+    list-style-position: inside;
+    padding-left: 0;
+}
+.timeline {
+    width: 100%;
+    max-width: 800px;
+    padding-top: 30px;
+    position: relative;
+}
+.timeline:before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: calc(15% + 34px);
+    bottom: 0px;
+    width: 4px;
+    background: #ddd;
+}
+.timeline:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.entry {
+    clear: both;
+    text-align: left;
+    position: relative;
+}
+.entry .title {
+    margin-bottom: 0.5em;
+    float: left;
+    width: 20%;
+    padding-right: 8px;
+    text-align: left;
+    position: relative;
+}
+.entry .title:before {
+    content: "";
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border: 4px solid #0831d9;
+    background-color: #fff;
+    border-radius: 100%;
+    top: 15%;
+    right: -8px;
+    z-index: 99;
+}
+.entry .title h3 {
+    margin: 0;
+    font-size: 105%;
+}
+.entry .title p {
+    margin: 0;
+    font-size: 100%;
+}
+.entry .body {
+    margin: 0 0 1.5em;
+    float: right;
+    width: 75%;
+}
+.entry .body p {
+    line-height: 1.4em;
+}
+.entry .body p:first-child {
+    margin-top: 0;
+    font-weight: 400;
+}
+.entry .body ul {
+    padding-left: 0;
+    list-style-type: none;
+}
+.entry .body ul li:before {
+    content: "–";
+    margin-right: 0.5em;
+}

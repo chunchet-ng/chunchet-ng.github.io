@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Chun Chet Ng</title>
+        <meta charset="UTF-8" />
+        <!-- Windows XP Theme (include only one theme at a time) -->
+        <link rel="stylesheet" href="src/xp.css" />
+        <script src="https://kit.fontawesome.com/a29f1d1c59.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="src/main.css" />
+        <link rel="icon" type="image/x-icon" href="/asset/favicon.ico">
+    </head>
+    
+    <body background="asset/bg.jpg">
+        <div class="window center">
+            <div class="title-bar">
+                <div class="title-bar-text">Chun Chet Ng Personal Site</div>
+                    <div class="title-bar-controls">
+                        <button aria-label="Minimize" onclick="window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ','_blank');"></button>
+                        <button aria-label="Maximize" onclick="window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ','_blank');"></button>
+                        <button aria-label="Close" onclick="window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ','_blank');"></button>
+                    </div>
+            </div>
+            <div class="window-body">
+                <div style="float:left; width: 25%;">
+                    <div class="block">
+                        <div id="content", style="height:511px">
+                            <div style="padding-top: 10px; display: flex; justify-content: center; ">
+                                <img src="asset/cc.jpg" style="border-radius: 50%; width:110px; height:110px; box-shadow: 0px 6px 5px #ccc;">
+                            </div>
+
+                            <p>Chun Chet Ng</p>
+                            <p>I am interested in computer vision related researches. Currently focusing on scene text and low-light image enhancement methods.</p>
+                            <p>Final Year PhD Student at <br/>the University of Malaya.</p>
+                            <progress max="100" value="80"></progress>
+
+                            <hr class="gradient">
+
+                            <ul class="tree-view", style="border: none;">
+                                <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i><a href="https://www.um.edu.my/" target=”_blank”>Malaysia</a></li>
+                                <li><i class="fa fa-fw fa-envelope" aria-hidden="true"></i><a href="mailto:ngchunchet95@gmail.com" target=”_blank”>Email</a></li>
+                                <li><i class="fa fa-fw fa-linkedin" aria-hidden="true"></i><a href="https://www.linkedin.com/in/chunchet-ng/" target=”_blank”>LinkedIn</a></li>
+                                <li><i class="fa fa-fw fa-github" aria-hidden="true"></i><a href="https://github.com/chunchet-ng/" target=”_blank”>GitHub</a></li>
+                                <li><i class="fa fa-fw fa-graduation-cap" aria-hidden="true"></i><a href="https://scholar.google.com/citations?user=1lKI2vEAAAAJ&hl=en/" target=”_blank”>Google Scholar</a></li>
+                                <li><i class="fa fa-fw fa-file" aria-hidden="true"></i><a href="asset/ChunChet_CV.pdf" target=”_blank”>CV (Apr. 2023)</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="status-bar" style="margin-left: 5px;">
+                        <p class="status-bar-field">This site is styled using <a href="https://botoxparty.github.io/XP.css/", target="_blank">xp.css</a>.</p>
+                    </div>
+                </div>
+                    
+                <div style="float:right; width: 75%">
+                    <menu role="tablist">
+                        <button aria-selected="true" aria-controls="res">Research</button>
+                        <button aria-controls="work">Work</button>
+                        <button aria-controls="vol">Volunteer</button>
+                        <button aria-controls="edu">Education</button>
+                    </menu>
+
+                    <article role="tabpanel" id="res">
+                        <div style="height: 460px">
+                            <p>In 2018, I joined <a href="http://cs-chan.com/", target="_blank">Prof. Chan Chee Seng</a>'s CISIP lab as a research assistant and started my PhD at September of the same year.
+                                Since then, I have been working on numerous deep learning research projects particularly on the topic of computer vision related to scene text methods and 
+                                low-light image enhancement methods.
+                            </p>
+                            <ul class="tree-view", style="padding-bottom: 10px;">
+                                <li>Below is a list of my publications over the years:
+                                    <ul>
+                                        <li>
+                                        <details open>
+                                            <summary>Conference</summary>
+                                            <ul>
+                                                <li><strong>ICPR 2022</strong> - Extremely Low-Light Image Enhancement with Scene Text Restoration. 
+                                                    <a href="https://ieeexplore.ieee.org/abstract/document/9956716", target="_blank">[paper]</a>
+                                                    <a href="https://github.com/SheepHow/ELIE_STR", target="_blank">[code]</a>
+                                                </li>
+                                                <li><strong>ICDAR 2021</strong> - Competition on Integrated Circuit Text Spotting and Aesthetic Assessment
+                                                    <a href="https://link.springer.com/chapter/10.1007/978-3-030-86337-1_44", target="_blank">[paper]</a>
+                                                    <a href="https://ictext.v-one.my/", target="_blank">[dataset]</a>
+                                                </li>
+                                                <li><strong>CVPR 2020</strong> - On the General Value of Evidence, and Bilingual Scene-Text Visual Question Answering
+                                                    <a href="https://openaccess.thecvf.com/content_CVPR_2020/html/Wang_On_the_General_Value_of_Evidence_and_Bilingual_Scene-Text_Visual_CVPR_2020_paper.html", target="_blank">[paper]</a>
+                                                    <a href="https://eval.ai/web/challenges/challenge-page/754/overview", target="_blank">[dataset]</a>
+                                                </li>
+                                                <li><strong>ICDAR 2019</strong> - Robust Reading Challenge on Arbitrary-Shaped Text - RRC-ArT
+                                                    <a href="https://ieeexplore.ieee.org/document/8978157", target="_blank">[paper]</a>
+                                                    <a href="https://rrc.cvc.uab.es/?ch=14", target="_blank">[dataset]</a>
+                                                </li>
+                                                <li><strong>ICDAR 2019</strong> - Competition on Large-Scale Street View Text with Partial Labeling - RRC-LSVT
+                                                    <a href="https://ieeexplore.ieee.org/document/8978143", target="_blank">[paper]</a>
+                                                    <a href="https://rrc.cvc.uab.es/?ch=16", target="_blank">[dataset]</a>
+                                                </li>
+                                                <li><strong>ACMMM 2018</strong> - Unprecedented Usage of Pre-trained CNNs on Beauty Product
+                                                    <a href="https://dl.acm.org/doi/abs/10.1145/3240508.3266433", target="_blank">[paper]</a>
+                                                </li>
+                                            </ul>
+                                        </details>
+                                        </li>
+                                        <li>
+                                            <details open>
+                                            <summary>Journal</summary>
+                                            <ul>
+                                                <li>Extension of conference papers are submitted to a few journals, and they are pending for reviews.</li>
+                                            </ul>
+                                            </details>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            
+                            <p>Collabarations with the following people are the key reasons of successful research projects:</p>
+                            <div class="no_indent_ul">
+                                <ul>Postgraduate
+                                    <li><a href="https://scholar.google.com/citations?user=ca90ZhoAAAAJ&hl=en", target="_blank">Chee-Kheng Chng</a> - University of Adelaide</li>
+                                    <li><a href="https://sites.google.com/site/alexofnthu/home", target="_blank">Che-Tsung Lin</a> - Chalmers University of Technology</li>
+                                    <li><a href="https://xinke-wang.github.io/", target="_blank">Xinyu Wang</a> - University of Adelaide</li>
+                                </ul>  
+                                <ul>Supervised/Supervising Undergraduate
+                                    <li><a href="https://www.linkedin.com/in/wan-jun-nah/", target="_blank">Wan Jun Nah</a> - University of Malaya</li>
+                                    <li><a href="https://www.linkedin.com/in/meiyihtan/", target="_blank">Mei Yih Tan</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article role="tabpanel" hidden id="work">
+                        <div style="height: 460px">
+                            <div class="timeline">
+                                <div class="entry">
+                                    <div class="title">
+                                        <h3>Jan. 2023 - Present</h3>
+                                        <p><a href="https://www.akirakan.com//", target="_blank">AkiraKan</a></p>
+                                    </div>
+                                    <div class="body">
+                                        <p>Part Time ML/AI Research Scientist (3D & AI).</p>
+                                        <ul>
+                                        <li>Handling OCR related projects including lamp post ID extraction and 
+                                            license plate recognition based on traffic scene images.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="entry">
+                                    <div class="title">
+                                        <h3>Mar. 2020 - Dec. 2022</h3>
+                                        <p><a href="https://www.vitrox.com/", target="_blank">ViTrox Corporation</a></p>
+                                    </div>
+                                    <div class="body">
+                                        <p>Research Intern.</p>
+                                        <ul>
+                                        <li>Interned at the Centre of Excellence department and
+                                            working on industrial OCR problems. Throughout the internship, I
+                                            have organized an international OCR competition, <a href="https://ictext.v-one.my/", target="_blank">
+                                            ICDAR 2021 RRC - ICText</a> together with Baidu and a few partner universities. My
+                                            research mainly focuses on OCR methods in industrial use cases to
+                                            detect and recognize defective characters accurately on chip images.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="entry">
+                                    <div class="title">
+                                        <h3>Sept. 2018 - Present</h3>
+                                        <p><a href="https://www.um.edu.my/", target="_blank">University of Malaya</a></p>
+                                    </div>
+                                    <div class="body">
+                                        <p>Research Assistant.</p>
+                                        <ul>
+                                        <li>Under the supervision of <a href="http://cs-chan.com/", target="_blank">Prof. Chan</a>, my research 
+                                            is mainly focuses on but not limited to scene text spotting and image enhancement related works, 
+                                            also involved in the building of scene text datasets. My notable recent works include the 
+                                            introduction of novel datasets such as <a href="https://rrc.cvc.uab.es/?ch=14", target="_blank">ArT</a>, 
+                                            <a href="https://eval.ai/web/challenges/challenge-page/754/overview", target="_blank">EST-VQA</a>, and <a href="https://ictext.v-one.my/", target="_blank">ICText</a>.
+                                        </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="entry">
+                                    <div class="title">
+                                        <h3>Feb 2017 - Aug 2017</h3>
+                                        <p><a href="https://www.thetasp.com/", target="_blank">Theta Service Partner</a></p>
+                                    </div>
+                                    <div class="body">
+                                        <p>Intern Software Engineer.</p>
+                                        <ul>
+                                        <li>I joined the Centre of Excellence department to work on a bank loan
+                                            software system. I was mainly responsible for bug fixing,
+                                            implementing customers' requirements, and writing test cases.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <p>References available upon request.</p>
+                        </div>
+                    </article>
+
+                    <article role="tabpanel" hidden id="vol">
+                        <div style="height: 460px">
+                            <p>In the meantime of researching and working, I have been trying to contribute to the research community
+                                and the society in certain ways:</p>
+                            <div class="timeline">
+                                <div class="entry">
+                                    <div class="title">
+                                        <h3>2017 - Present</h3>
+                                        <p><a href="https://www.dharmadrum.org/", target="_blank">Dharma Drum Mountain</a></p>
+                                    </div>
+                                    <div class="body">
+                                        <p>Software Engineer.</p>
+                                        <ul>
+                                        <li>Completed an internal E-receipt system to keep track of all received
+                                            donations and payments in a systematic format.</li>
+                                        <li>Setup and migrated the legacy email systems to GSuite for NGO.</li>
+                                        <li><a href="http://ddmmy.org/", target="_blank">E-commerce website</a> to allow the selling of books online and the
+                                            acceptance of online donations.</li>
+                                        <li>Periodic update and maintenance of the above projects.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="entry">
+                                    <div class="title">
+                                        <h3>2019 - 2020</h3>
+                                        <p><a href="https://www.facebook.com/DhammaEarthKL/", target="_blank">Dhamma Earth</a></p>
+                                    </div>
+                                    <div class="body">
+                                        <p>IT Volunteer.</p>
+                                        <ul>
+                                        <li>Initial setup of the organization's main <a href="https://dhammaearth.org/", target="_blank">website</a>.</li>
+                                        <li>Developed an internal webapp to keep track <a href="https://github.com/chunchet-ng/ar_web/", target="_blank">allowable requisites</a>.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <p>Besides, I have also reviewed papers for the following conferences along the years:</p>
+                            <div class="no_indent_ul">
+                                <ul>
+                                    <li>AAAI 2022, 2023.</li>
+                                    <li>PR 2022.</li>
+                                    <li>CVPR 2021, 2022.</li>
+                                    <li>ECCV 2022.</li>
+                                    <li>ICCV 2021.</li>
+                                    <li>BMVC 2021.</li>
+                                    <li>ICDAR 2019, 2021.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article role="tabpanel" hidden id="edu">
+                        <div style="height: 460px">
+                            <div class="timeline">
+                                <div class="entry">
+                                    <div class="title">
+                                        <h3>Sept. 2018 - Present</h3>
+                                        <p><a href="https://www.um.edu.my/", target="_blank">University of Malaya</a></p>
+                                    </div>
+                                    <div class="body">
+                                        <p>PhD in Artificial Intelligence (Computer Vision).</p>
+                                        <ul>
+                                        <li>Expected Graduation Date: September 2023</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="entry">
+                                    <div class="title">
+                                        <h3>May 2015 - May 2017</h3>
+                                        <p><a href="https://www.tarc.edu.my/", target="_blank">TARUMT</a></p>
+                                    </div>
+                                    <div class="body">
+                                        <p>Bachelor of Computer Science (Honours) in Software Engineering.</p>
+                                        <ul>
+                                        <li>Grduated with Distinction and CGPA of 3.97/4.0</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="entry">
+                                    <div class="title">
+                                        <h3>May 2013 - May 2015</h3>
+                                        <p><a href="https://www.tarc.edu.my/", target="_blank">TARUMT</a></p>
+                                    </div>
+                                    <div class="body">
+                                        <p>Diploma in Science (Computer Science and Mathematics).</p>
+                                        <ul>
+                                        <li>Grduated with Distinction and CGPA of 3.97/4.0</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <p>Attended Summer School:</p>
+                            <div class="no_indent_ul">
+                                <ul>
+                                    <li><a href="https://www.oxfordml.school/oxml2022/", target="_blank">Oxford Machine Learning Summer School 2022.</a></li>
+                                    <li><a href="https://sites.google.com/view/seamls/home", target="_blank">Southeast Asia Machine Learning School 2019.</a></li>
+                                </ul>
+                            </div>
+                            
+                            <p>Achievements earned during my years of study:</p>
+                            <div class="no_indent_ul">
+                                <ul>
+                                    <li>Perfect Half Million Beauty Product Image Recognition Challenge - Fourth Place.</li>
+                                    <li>HACK2HIRED Software Hackathon 2017 - Second Runner Up.</li>
+                                    <li>Pecipta 2017 - Bronze Medal.</li>
+                                    <li>Hilti's FYP Competition 2016 - Second Runner Up.</li>
+                                    <li>FYP Showcase 2016 - First Runner Up.</li>
+                                    <li>President’s Award Winner as the best graduate for the year of 2017/2018.</li>
+                                    <li>Book Prize Award Winner for diploma and degree (highest CGPA).</li>
+                                    <li>President’s List for every semester during diploma and degree.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+
+                    <section class="field-row" style="justify-content: flex-end">
+                        <button onclick="location.href='mailto:ngchunchet95@gmail.com';">Contact Me</button>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="src/main.js"></script>
+</html>
