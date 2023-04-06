@@ -56,7 +56,7 @@ ul.tree-view a {
 .timeline {
     width: 100%;
     max-width: 800px;
-    padding-top: 30px;
+    padding-top: 15px;
     position: relative;
 }
 .timeline:before {
@@ -112,7 +112,7 @@ ul.tree-view a {
     width: 75%;
 }
 .entry .body p {
-    line-height: 1.4em;
+    line-height: 1em;
 }
 .entry .body p:first-child {
     margin-top: 0;
